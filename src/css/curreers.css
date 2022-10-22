@@ -1,0 +1,163 @@
+.img {
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background: url(../images/curreers1.jpg) 100% no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  animation: zoom 20s linear infinite;
+}
+
+/*--------------------------------------------------------------
+# curreersContainer
+--------------------------------------------------------------*/
+.curreersContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.curreersContainer .formContainer {
+  width: 100%;
+  max-width: 120rem;
+  /* background-color: blueviolet; */
+}
+
+.inLine {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/*--------------------------------------------------------------
+# lineSeparate
+--------------------------------------------------------------*/
+.curreersContainer .formContainer .lineSeparate {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #ddd;
+  margin: 4rem 0;
+}
+
+/*--------------------------------------------------------------
+# Header Section
+--------------------------------------------------------------*/
+.curreersContainer .headerCurreers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.curreersContainer .headerCurreers h2 {
+  color: #fff;
+  font-size: 5.8rem;
+}
+.curreersContainer .headerCurreers h2 span {
+  color: var(--main-color);
+}
+
+.curreersContainer .headerCurreers p {
+  max-width: 80rem;
+  margin-top: 1.8rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.curreersContainer .formContainer .headerSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.curreersContainer .formContainer .headerSection h2 {
+  color: #fff;
+  font-size: large;
+}
+.curreersContainer .formContainer .headerSection h2 span {
+  color: var(--main-color);
+}
+
+/*--------------------------------------------------------------
+# alt-placeholder
+--------------------------------------------------------------*/
+.curreersContainer .formContainer .alt-placeholder {
+  width: 100%;
+  min-width: 20rem;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 0.8rem;
+  /* border: 0.1rem solid #ddd; */
+}
+.curreersContainer .formContainer .alt-placeholder label {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+.curreersContainer .formContainer .alt-placeholder input {
+  font-size: 1.4rem;
+  padding: 0.8rem 1rem;
+  background-color: transparent;
+}
+.curreersContainer .formContainer .alt-placeholder select {
+  font-size: 1.4rem;
+  background-color: #cccbcb5d;
+  color: #fff;
+}
+::placeholder {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# applicationId
+--------------------------------------------------------------*/
+.curreersContainer .formContainer .applicationId {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 0 2rem 0;
+}
+
+/*--------------------------------------------------------------
+# workExperience
+--------------------------------------------------------------*/
+.curreersContainer .formContainer .workExperience {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+/*--------------------------------------------------------------
+# geralInformation
+--------------------------------------------------------------*/
+.curreersContainer .formContainer .geralInformation {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}

@@ -1,0 +1,222 @@
+.available {
+  width: 100%;
+  padding-top: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.available .img {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background: url(../images/imagem2.jpg) 100% no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  animation: zoom 20s linear infinite;
+}
+
+.backgroudblack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000a4;
+  z-index: 0px;
+}
+
+.available .titleConteiner {
+  display: flex;
+  flex-direction: row;
+}
+
+.available h1 {
+  letter-spacing: 3px;
+  text-align: center;
+
+  font-size: 5.7rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #facbb9;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  z-index: 11;
+}
+.available span {
+  letter-spacing: 3px;
+  text-align: center;
+
+  font-size: 5.7rem;
+  font-weight: 600;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  z-index: 11;
+}
+
+.available h5 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #fff;
+  z-index: 11;
+}
+
+.available .boxAvailable {
+  width: 90%;
+  height: auto;
+  padding: 0 15px;
+  background-color: #fff;
+  margin: 22px 0;
+  border-radius: 8px;
+  z-index: 1;
+}
+.available .boxAvailable .boxAvailableAreaDescription {
+  width: 100%;
+  padding: 13px 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 0.8px #97979750 solid;
+}
+.available .boxAvailable .boxAvailableAreaDescription .boxAvailableImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+.available .boxAvailable .boxAvailableAreaDescription .boxAvailableTitle {
+  color: #334e6f;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+.available .boxAvailable .boxAvailableAreaInfoConteiner {
+  width: 100%;
+  margin: 20px 0;
+  border-bottom: 0.8px #97979794 solid;
+}
+
+.available .boxAvailable .boxAvailableAreaInfo {
+  height: 40px;
+  padding: 0 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.available .boxAvailable .boxAvailableAreaInfo .boxAvailableH5 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #677782;
+  font-family: 'Raleway', sans-serif;
+}
+.available .boxAvailable .boxAvailableAreaInfo .boxAvailableP {
+  color: #677782;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 14px;
+}
+
+.available .boxAvailable .boxAvailableAreaInfo .boxAvailablePRed {
+  color: #ff0000;
+}
+.available .boxAvailable .boxAvailableAreaInfo .boxAvailablePGreen {
+  color: #10ee35;
+}
+
+.available .boxAvailable .btnVacanciesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.available .boxAvailable .btnVacanciesContainer .btnVacanciesPlus {
+  width: 150px;
+  height: 34px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c0c0c0;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+.available .boxAvailable .btnVacanciesContainer .btnVacanciesApply {
+  width: 150px;
+  height: 34px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 16px;
+  background-color: #facbb9;
+  border-radius: 10px;
+}
+.available .boxAvailable .btnVacanciesContainer .btnVacanciesPlus a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.available .boxAvailable .btnVacanciesContainer .btnVacanciesApply a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* media queries  */
+@media (max-width: 1031px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .available h1 {
+    font-size: 5rem;
+  }
+
+  .available span {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .available h1 {
+    font-size: 4rem;
+  }
+  .available span {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 662px) {
+  .available h1 {
+    font-size: 3rem;
+  }
+  .available span {
+    font-size: 3rem;
+  }
+}
+
+/* @media (max-width: 450px) {
+  
+  .available .titleConteiner {
+    height: 80px;
+    display: block;
+    z-index: 99;
+  }
+} */

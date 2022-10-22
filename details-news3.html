@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inga Rose</title>
+    <link rel="stylesheet" href="src/css/global.css" />
+    <link rel="stylesheet" href="src/css/header.css" />
+    <link rel="stylesheet" href="src/css/foter.css" />
+    <link rel="stylesheet" href="src/css/load.css" />
+    <link rel="stylesheet" href="src/css/details-news.css" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <style>
+      h1 {
+        color: white;
+      }
+    </style>
+
+    <!-- Favicons -->
+    <link href="src/assets/img/favicon.png" rel="icon" />
+    <link href="src/assets/img/favicon.png" rel="apple-touch-icon" />
+
+    <!-- Vendor CSS Files -->
+    <link href="src/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="src/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Animação -->
+    <link rel="stylesheet" href="src/css/animacao.css" />
+  </head>
+
+  <body onload="loading()">
+    <div id="loade" class="loader">
+      <span class="span0"></span>
+      <span class="span1"></span>
+      <span class="span2"></span>
+      <span class="span3"></span>
+      <span class="span4"></span>
+      <span class="span5"></span>
+      <span class="span6"></span>
+      <span class="span7"></span>
+      <span class="span8"></span>
+      <span class="span9"></span>
+      <span class="span10"></span>
+      <span class="span11"></span>
+      <span class="span12"></span>
+      <span class="span13"></span>
+      <span class="span14"></span>
+    </div>
+
+    <!-- header section starts  -->
+    <header
+      id="header"
+      style="background-color: #fff"
+      class="header"
+      data-anime="scale"
+    >
+      <a href="index.html" class="logo">
+        <img src="src/assets/img/logoIngaRose.png" alt="" />
+      </a>
+      <nav class="navbar">
+        <a
+          id="homeHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="index.html#home"
+          >home</a
+        >
+        <a
+          id="aboutHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="index.html#aboutUs"
+          >about</a
+        >
+        <a
+          id="teamHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="index.html#ourTeam"
+          >team</a
+        >
+        <a
+          id="servicesHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="index.html#ourServices"
+          >services</a
+        >
+        <a
+          id="noticiasHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="news.html"
+          >news</a
+        >
+        <a
+          id="processHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="index.html#ourProcess"
+          >process</a
+        >
+        <a
+          id="careersHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="curreers.html"
+          >careers</a
+        >
+        <a
+          id="recruitmentHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="recruitment.html"
+          >recruitment</a
+        >
+        <a
+          id="contactHeaderLink"
+          class="linkmenu"
+          style="color: #111"
+          href="index.html#contactUs"
+          >contact</a
+        >
+
+        <div id="language" class="language">
+          <div
+            style="font-size: 1.4rem; cursor: pointer; color: #111"
+            id="languageSelected"
+            class="language-selected"
+          >
+            us-EN
+          </div>
+          <ul id="ulLang">
+            <li>
+              <a style="color: #111" href="#" id="en" class="en"> English </a>
+            </li>
+            <li>
+              <a style="color: #111" href="#" id="br" class="br"> Português </a>
+            </li>
+            <li>
+              <a style="color: #111" href="#" id="fr" class="fr"> Español </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+    </header>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div id="conteinerall" class="conteinerAll">
+      <!-- Go to tpo  -->
+      <div class="gotoTop">
+        <a href="#home" class="txtGotoTop">
+          Go
+          <spam class="spangotoTop">TOP</spam>
+        </a>
+      </div>
+      <!-- left  -->
+      <div class="left">
+        <a
+          href="https://www.linkedin.com/company/ingarose/"
+          class="fab fa-linkedin iconsLeft"
+        ></a>
+        <a
+          href="https://www.facebook.com/"
+          class="fab fa-facebook-f iconsLeft"
+        ></a>
+        <a
+          href="https://twitter.com/ingarose_ao"
+          class="fab fa-twitter iconsLeft"
+        ></a>
+      </div>
+      <!-- right  
+      <div class="right"></div>
+    -->
+
+      <!-- ======= Blog Single Section ======= -->
+      <section id="blog" class="blog">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-2 date-blog">
+              <p class="day">13</p>
+              <p class="date">Mar 2021</p>
+              <p class="by"><i class="bi bi-person"></i> By Berta Conde Issa</p>
+            </div>
+
+            <div class="col-lg-6 entries">
+              <article class="entry entry-single">
+                <div class="entry-img">
+                  <img
+                    src="src/images/blog/blog-3.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+
+                <h2 class="entry-title">
+                  <a href=""
+                    >MASFAMU in partnership with INGA ROSE, have developed the
+                    More Inclusion Project
+                  </a>
+                </h2>
+
+                <!-- <div class="entry-meta">
+                  <ul>
+                    <li class="d-flex align-items-center">
+                      <i class="bi bi-person"></i>
+                      <a href="">Nobody </a>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <i class="bi bi-clock"></i>
+                      <a href=""
+                        ><time datetime="2020-01-01">11 November 2021</time></a
+                      >
+                    </li>
+                    <li class="d-flex align-items-center">
+                    <i class="bi bi-chat-dots"></i>
+                    <a href="">12 Comments</a>
+                  </li> 
+                  </ul>
+                </div> -->
+
+                <div class="entry-content">
+                  <p>
+                    The More Inclusion project aims to evaluate the
+                    implementation of these policies in macro public and private
+                    structures through a collection of statistical data.
+                  </p>
+
+                  <p>
+                    These data will be useful to describe the roles that women,
+                    men young people and people with disabilities play in
+                    society and the economy in order to provide a basis, for
+                    promoting strategies and policy-making. That can contribute
+                    to the integration of the groups referenced above while also
+                    enabling, sound monitoring and evaluation of the
+                    effectiveness of the policies under reference to be ensured.
+                  </p>
+
+                  <p>
+                    The first phase of the project, underway since 2019.
+                    Compiled in a period of 9 months statistical data from the
+                    main macrostructures of the country and is currently the
+                    team evaluating the implementation of policies promoting
+                    inclusion in public and private institutions.
+                  </p>
+
+                  <p>
+                    On this path, MASFAMU has held a Round Table, conducted by
+                    INGA ROSE. The topics will be given in plenary, where the
+                    speakers stimulated the sharing of ideas among the
+                    participants
+                  </p>
+
+                  <p>
+                    The event took place at the Ministry of Social Action Family
+                    and Women's Promotion, on the following dates:
+                  </p>
+
+                  <ul>
+                    <li>First Round Table, on June 4000 9:00 am to 12:00 pm</li>
+                    <li>Second Round Table, june 1800 09:00 to 12:00</li>
+                    <li>Third Round Table, june 2500 09:00 to 12:00</li>
+                    <li>
+                      Fourth Round Table, September 15 from 09:00 to 12:00
+                    </li>
+                  </ul>
+
+                  <!-- <blockquote>
+                    <p>
+                      Et vero doloremque tempore voluptatem ratione vel aut.
+                      Deleniti sunt animi aut. Aut eos aliquam doloribus minus
+                      autem quos.
+                    </p>
+                  </blockquote> -->
+                </div>
+
+                <!-- <div class="entry-footer">
+                  <i class="bi bi-folder"></i>
+                  <ul class="cats">
+                    <li><a href="#">Inga Rose</a></li>
+                  </ul>
+
+                  <i class="bi bi-tags"></i>
+                  <ul class="tags">
+                    <li>Categoria: <a href="#">Criativa</a></li>
+                  </ul>
+                </div> -->
+              </article>
+              <!-- End blog entry -->
+
+              <!-- <div class="blog-author d-flex align-items-center">
+              <img
+                src="src/images/blog/blog-author.jpg"
+                class="rounded-circle float-left"
+                alt=""
+              />
+              <div>
+                <h4>Jane Smith</h4>
+                <div class="social-links">
+                  <a href="https://twitters.com/#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a href="https://facebook.com/#"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="https://instagram.com/#"
+                    ><i class="biu bi-instagram"></i
+                  ></a>
+                </div>
+                <p>
+                  Itaque quidem optio quia voluptatibus dolorem dolor. Modi
+                  eum sed possimus accusantium. Quas repellat voluptatem
+                  officia numquam sint aspernatur voluptas. Esse et
+                  accusantium ut unde voluptas.
+                </p>
+              </div>
+            </div> -->
+              <!-- End blog author bio -->
+              <!--  
+            <div class="blog-comments">
+        
+            </div> -->
+
+              <!-- End blog comments -->
+            </div>
+            <!-- End blog entries list -->
+
+            <div class="col-lg-4">
+              <div class="sidebar">
+                <h3 class="sidebar-title">Postagens recentes</h3>
+                <div class="sidebar-item recent-posts">
+                  <div class="post-item clearfix">
+                    <a href="details-news2.html"
+                      >- Inga Rose, head of Human Capital Management at "Hengye
+                      Electroncis Industria S.A"</a
+                    >
+                  </div>
+
+                  <div class="post-item clearfix">
+                    <a href="details-news.html"
+                      >- Towards sustainable economy innovation and
+                      interconnectivity for social development</a
+                    >
+                  </div>
+                </div>
+                <!-- End sidebar recent posts-->
+
+                <h3 class="sidebar-title">Tags</h3>
+                <div class="sidebar-item tags">
+                  <ul>
+                    <li><a href="#">App</a></li>
+                    <li><a href="#">IT</a></li>
+                    <li><a href="#">O negócio</a></li>
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Office</a></li>
+                    <li><a href="#">Criativa</a></li>
+                    <li><a href="#">Estúdio</a></li>
+                    <li><a href="#">Smart</a></li>
+                    <li><a href="#">Pontas</a></li>
+                    <li><a href="#">Marketing</a></li>
+                  </ul>
+                </div>
+                <!-- End sidebar tags-->
+              </div>
+              <!-- End sidebar -->
+            </div>
+            <!-- End blog sidebar -->
+          </div>
+        </div>
+      </section>
+      <!-- End Blog Single Section -->
+
+      <!-- CONTACT US section starts  -->
+      <section class="contactUs" id="contactUs">
+        <div class="backgroudblack"></div>
+        <div class="img"></div>
+
+        <div class="headerContact column">
+          <h1 id="titleServices">CONTACT</h1>
+          <span>&nbsp</span>
+          <span id="titleSpanServices"> US </span>
+        </div>
+
+        <h5 id="subtitleContactUs">KEEP IN TOUCH</h5>
+
+        <div class="boxContactUs column">
+          <div class="contactLeft">
+            <p>TEL: TEL.:+(244) 926 476 880, 222 043 327</p>
+            <div style="width: 100%">
+              <p>Road Comandante N´zaji, Nº 90 Suburb Alvalade,</p>
+              <p>Luanda – Republic of Angola</p>
+            </div>
+            <div>
+              <p class="linkTxt">info@ingarose.com</p>
+              <p class="linkTxt">www.ingarose.com</p>
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <div class="icons">
+                  <a
+                    href="https://www.facebook.com/"
+                    class="fab fa-facebook-f"
+                  ></a>
+                </div>
+
+                <div class="icons">
+                  <a
+                    href="https://twitter.com/ingarose_ao"
+                    class="fab fa-twitter"
+                  ></a>
+                </div>
+
+                <div class="icons">
+                  <a
+                    href="https://www.linkedin.com/company/ingarose/"
+                    class="fab fa-linkedin"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="boxContactUsRigth">
+            <div class="boxContactUsRigthNameEmail">
+              <input
+                type="text"
+                name=""
+                class="inputs"
+                id="name"
+                placeholder="Name"
+              />
+              <input
+                type="text"
+                name=""
+                class="inputs"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <textarea
+              class="inputs"
+              id="sms"
+              rows="4"
+              cols="70"
+              name="comment"
+              form="usrform"
+              placeholder="Message"
+            ></textarea>
+            <input id="submit" type="submit" value="SEND" />
+          </div>
+        </div>
+
+        <div class="contentGoMap">
+          <a
+            id="goMap"
+            href="https://www.google.com/maps?q=Road+Comandante+N%C2%B4zaji,+N%C2%BA+90+Suburb+Alvalade,+Luanda+%E2%80%93+Republic+of+Angola&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjosMuHsNbzAhWRzzgGHR3HBrEQ_AUoAXoECAEQAw"
+          >
+            LOCATE US ON MAP
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer starts -->
+    <section id="myFooter" class="footer">
+      <div class="box-container" data-anime="down">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <img src="src/assets/img/logoIngaRose.png" alt="" />
+          <p id="infoLogoFooter">Transforming your Vision to Reality</p>
+          <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+            <a
+              href="https://twitter.com/ingarose_ao"
+              class="fab fa-twitter"
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/ingarose/"
+              class="fab fa-linkedin"
+            ></a>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <h3 id="titleLinkFooter">Additional Links</h3>
+          <a id="a1Footer" href="#ourServices" class="links">
+            <i class="fas fa-arrow-right"></i> Services
+          </a>
+          <a id="a2Footer" href="#ourTeam" class="links">
+            <i class="fas fa-arrow-right"></i> Our Team
+          </a>
+          <a id="a3Footer" href="src/pages/news/index.html" class="links">
+            <i class="fas fa-arrow-right"></i> News
+          </a>
+          <a id="a4Footer" href="#contactUs" class="links">
+            <i class="fas fa-arrow-right"></i> Contact Us
+          </a>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <h3 id="titlePostFooter">RECENT POSTS</h3>
+          <p id="p1Footer">Hengye Electroncis Industria S.A</p>
+          <p id="p2Footer">
+            Towards sustainable economy innovation and interconnectivity
+          </p>
+          <p id="p3Footer">MASFAMU in partnership with INGA ROSE</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- custom js file link  -->
+    <script src="src/js/script.js"></script>
+    <script src="src/js/header.js"></script>
+    <script src="src/js/tradutorIndex.js"></script>
+    <script src="src/js/animete.js"></script>
+    <script src="src/js/loading.js"></script>
+
+    <script>
+      function loading() {
+        document.getElementById('loade').style.display = 'none'
+        document.getElementById('header').style.display = 'flex'
+        document.getElementById('conteinerall').style.display = 'block'
+        document.getElementById('myFooter').style.display = 'block'
+      }
+    </script>
+  </body>
+</html>
